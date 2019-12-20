@@ -1,0 +1,59 @@
+/*********************** CSS EXAMEN AW ***********************/
+/*********************** ANIBAL ZAMBRANA RUIZ ***********************/
+#principal{width: 95%;
+    margin: auto;}
+body{background-color: rgb(250, 219, 225);}
+/******************** HEADER ******************/
+header{background-image: url(imagenes/header.jpg);
+    height: 310px;
+    background-position: center;
+    background-size: cover;
+    position: relative;}
+header #titulo{position: absolute;
+    font-family: sans-serif;
+    top:100px;
+    left:50px;
+    color: rgb(228, 225, 225);
+    font-size: 3em;
+    font-weight: bold;}
+/***************** NAV ****************/
+nav{background-color: rgb(93, 134, 209);}
+nav ul{margin: 0;}
+nav ul li {display: inline-block;
+    padding: 10px;}
+nav ul li a {text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(228, 225, 225);}
+nav ul li a:hover {color: rgb(251, 138, 161);}
+/************************* MAIN **************************/
+main{background-color: rgb(194, 194, 194);
+    padding: 2%;}
+main h1{text-align: center;
+    font-family: sans-serif;
+    color: rgb(251, 138, 161);
+    margin: 0;}
+main p {text-align: justify;
+    text-indent: 1em;
+    font-family: sans-serif;}
+main img {margin: 2.25%;
+    width: 20%;
+    border-radius: 10%;} /* Aquí debería de ir box-shadow: black; PERO NO TENGO NI IDEA DE COMO VA XD */
+main li{font-family: sans-serif;
+    text-indent: 1em;}
+/*************** FOOTER *************************/
+footer{background-color: rgb(93, 134, 209);}
+footer p{margin: 0;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(228, 225, 225);
+    text-align: center;}
+/*************** MOVILES (y tal) *********************/
+@media only screen and (max-width:800px){
+    main img {width: 41%;
+        margin: 4%;}
+}
+@media only screen and (max-width:500px){
+    main img {width: 92%;
+        margin: 4%;}
+}
